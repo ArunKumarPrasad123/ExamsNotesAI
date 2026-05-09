@@ -23,7 +23,7 @@ app.post(
 );
 
 app.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:5174", process.env.CLIENT_URL],
+    origin: ["https://examsnotesai-2.onrender.com"],
     credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     }
